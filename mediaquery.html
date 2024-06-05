@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            background-color: aqua;
+            padding: 20px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        @media (max-width:480px) {
+            nav ul {
+                display: block;
+                background-color: blue;
+
+
+            }
+
+            li {
+                text-align: center;
+                border-bottom: 2px dotted black;
+                padding: 20px;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align: center;">Media Queries</h2>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Info</li>
+            <li>search</li>
+            <li>Profile</li>
+        </ul>
+    </nav>
+</body>
+
+</html>
